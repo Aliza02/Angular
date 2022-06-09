@@ -14,6 +14,8 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
+import {MatButtonModule} from '@angular/material/button';
+
 
 
 @NgModule({
@@ -33,7 +35,8 @@ import { FooterComponent } from './footer/footer.component';
     MatTableModule,
     MatCardModule,
     MatIconModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatButtonModule
     
   ],
   providers: [],
