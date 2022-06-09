@@ -15,6 +15,7 @@ import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import {MatButtonModule} from '@angular/material/button';
+import { TestComponent } from './test/test.component';
 
 
 
@@ -25,7 +26,8 @@ import {MatButtonModule} from '@angular/material/button';
     AboutComponent,
     ContactComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    TestComponent
   ],
   imports: [
     BrowserModule,
