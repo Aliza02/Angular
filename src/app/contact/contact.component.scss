@@ -1,0 +1,111 @@
+
+.headings
+{
+   text-align: center;
+   margin-top: 150px;
+   padding: 10px;
+   height: 60vh;
+}
+ .headings button
+ {
+     color: white;
+     background-color: steelblue;
+     padding: 10px;
+     margin-right: 10px;
+     width: 200px;
+     font-size: 18px;
+     border: 0;
+     outline: none;
+     border-radius: 4px;
+     box-shadow: 2px 2px 2px black;
+     cursor:pointer;
+ }
+.example-sidenav{
+    width: 300px;
+    height: 900px;
+    position: fixed;
+    background-color: lightblue;
+    
+
+    
+}
+.example-sidenav h1{
+    margin-top: 50px;
+    margin-left: 30px;
+    
+}
+.example-sidenav a
+{
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+    border-bottom: 2px solid black;
+    margin-right: 30px;
+}
+mat-drawer-content{
+    display: flex;
+    flex-direction: row;
+    // height: 100px;
+    background-color: steelblue;
+    color: white;
+    padding-top: 25px;
+}
+mat-drawer-content button{
+    background-color: steelblue;
+    border: 0;
+    color: white;
+    padding-top: 6px;
+    
+}
+mat-drawer-content h1{
+    margin-left: 10px;
+    font-size: 35px;
+}
+
+.content{
+    display: inline;
+}
+.right-side-content
+{
+    height: 700px;
+}
+.side-content{
+    height: 900px;
+}
+.side-content
+{
+    float: left;
+   
+    background-color: lightblue;
+    width: 50%;
+    padding: 20px;
+}
+.side-content h1, .side-content h3{
+     margin-left: 50px;
+     font-family: 'Times New Roman', Times, serif;
+
+     
+}
+.side-content h1{
+    margin-top: 200px;
+    font-size: 3em;
+}
+.side-content h3{
+    font-size: 2em;
+}
+.right-side-content
+{
+    // padding: 60px;
+    // margin-top: 160px;
+}
+.right-side-content h3{
+    font-size: 20px;
+}
+
+.info{
+    margin-top: 200px;
+    margin-left: 50px;
+}

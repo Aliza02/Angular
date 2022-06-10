@@ -1,0 +1,51 @@
+.test-login
+{
+    background-color: steelblue;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.test-login div > mat-form-field{
+    display: block;
+}
+.test-login div{
+    background-color: rgba(0,0,0,0.4);
+    padding: 80px;
+    border-radius: 5px;
+}
+.test-login div h1{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.test-login mat-form-field input{
+    background-color: transparent;
+    border: 0;
+    outline:0;
+    border-bottom: 2px solid  lightblue;
+    // border-bottom-color: lightblue;
+    font-size: 18px;
+    padding: 10px;
+    margin-left: -20px;
+    color: white;
+}
+
+.test-login button{
+    padding: 10px;
+    font-size: 18px;
+    width: 120px;
+    background-color: lightblue;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    margin-left: 30px;
+    transform: scale(0.98);
+}
+.test-login span{
+    font-size: 18px;
+    margin-left:-20px;
+}
