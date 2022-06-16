@@ -1,18 +1,16 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './about/about.component';
+import { AffiliateComponent } from './affiliate/affiliate.component';
 import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
-import { SignupComponent } from './signup/signup.component';
-
 
 const routes: Routes = [
   {
-    path:'',
+    path:'home',
     component:HomeComponent
   },
-  
   {
     path:'about',
     component:AboutComponent
@@ -22,12 +20,13 @@ const routes: Routes = [
     component:ContactComponent
   },
   {
-    path:'login',
-    component:LoginComponent
+    path:'affiliate',
+    component:AffiliateComponent
   },
   {
-    path:'signup',
-    component:SignupComponent
+    path:'login',
+    component:LoginComponent,
+    data:{fullPageTemplate:true}
   }
 ];
 
